@@ -7,7 +7,7 @@ const CustomContainer = styled.div`
   display: flex;
   flex-direction: column;
   width: 25%;
-  height: 80%;
+  height: 90%;
   justify-content: center;
   margin: 0 auto;
   border: 1px solid black;

@@ -10,14 +10,19 @@ const CustomButton = styled.button`
   height: 100%;
   cursor: pointer;
   width: 100%;
-  /* margin-top: 200px; */
+  ${(props) => props.color && `background-color: ${props.color}`};
 `;
 
-function Button({ title, onClick }) {
-  return <CustomButton onClick={onClick}>{title}</CustomButton>;
+function Button({ title, onClick, color }) {
+  return (
+    <CustomButton color={color} onClick={onClick}>
+      {title}
+    </CustomButton>
+  );
 }
 Button.propTypes = {
   title: PropTypes.string,
-  onClick: PropTypes.func
+  onClick: PropTypes.func,
+  color: PropTypes.string
 };
 export default Button;
