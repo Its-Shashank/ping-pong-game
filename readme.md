@@ -1,3 +1,6 @@
+### Here is the deployed version of the app.
+- [PING-PONG](https://admiring-wiles-f4c63f.netlify.app/)
+
 ## To run the application locally for the first time use following command
 
 - yarn && yarn start
