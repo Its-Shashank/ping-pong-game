@@ -25,8 +25,8 @@ function App({
   dispatchSetPlayerTwoScore
 }) {
   const [startGame, setStartGame] = useState(false);
-  const [player1, setPlayer1] = useState(players.playerOne);
-  const [player2, setPlayer2] = useState(players.playerTwo);
+  const [player1, setPlayer1] = useState(players?.playerOne);
+  const [player2, setPlayer2] = useState(players?.playerTwo);
   const [error, setError] = useState(false);
   const handleGameStart = () => {
     if (player2 !== "" && player1 !== "") {

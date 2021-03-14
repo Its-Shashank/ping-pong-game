@@ -23,11 +23,7 @@ module.exports = {
   moduleNameMapper: {
     "@src(.*)$": "<rootDir>/src/$1"
   },
-  setupFilesAfterEnv: [
-    "<rootDir>/jest.setup.js",
-    "<rootDir>/build-utils/testing/test-bundler.js",
-    "react-testing-library/cleanup-after-each"
-  ],
+  setupFilesAfterEnv: ["<rootDir>/jest.setup.js", "<rootDir>/build-utils/testing/test-bundler.js"],
   testRegex: "tests/.*\\.test\\.js$",
   snapshotSerializers: []
 };

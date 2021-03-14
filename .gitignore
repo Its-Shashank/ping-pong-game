@@ -1,2 +1,12 @@
-dist/
-node_modules/
+# Don't check auto-generated stuff into git
+.history/
+build
+node_modules
+stats.json
+coverage/
+.vscode/
+
+# Cruft
+.DS_Store
+npm-debug.log
+.idea

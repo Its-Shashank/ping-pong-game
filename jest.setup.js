@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 jest.mock("react-router-dom", () => ({
   __esModule: true,
   useLocation: jest.fn().mockReturnValue({
