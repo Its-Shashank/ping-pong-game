@@ -6,6 +6,7 @@ const Input = styled.input`
   height: 30px;
   outline: none;
   border: 1px solid #19b5fe;
+  border-radius: 5px;
 `;
 
 function InputComponent({ value, onChange }) {

@@ -10,6 +10,7 @@ const CustomButton = styled.button`
   height: 100%;
   cursor: pointer;
   width: 100%;
+  border-radius: 10px;
   ${(props) => props.color && `background-color: ${props.color}`};
 `;
 
