@@ -1,9 +1,9 @@
 import React from "react";
-import Input from "../components/Input";
-import CustomContainer from "../components/Container";
-import CustomButton from "../components/Button";
+import Input from "../../components/Input";
+import CustomContainer from "../../components/Container";
+import CustomButton from "../../components/Button";
 import PropTypes from "prop-types";
-import { Flex, ButtonContainer } from "./GameScreen";
+import { Flex, ButtonContainer } from "../StartGame/index";
 
 function BeforeStart({ handleGameStart }) {
   return (

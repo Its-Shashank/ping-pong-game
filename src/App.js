@@ -1,5 +1,5 @@
-import BeforeStart from "./containers/BeforeStart";
-import GameStart from "./containers/GameScreen";
+import BeforeStart from "./containers/BeforeStart/Loadable";
+import GameStart from "./containers/StartGame/Loadable";
 import styled from "styled-components";
 import React, { useState } from "react";
 

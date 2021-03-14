@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import CustomContainer from "../components/Container";
+import CustomContainer from "../../components/Container";
 import PropTypes from "prop-types";
-import CustomButton from "../components/Button";
+import CustomButton from "../../components/Button";
 export const ButtonContainer = styled.div`
   position: absolute;
   bottom: 50px;
